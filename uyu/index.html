@@ -19,6 +19,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 </head><!--/head-->
+
 <body>
     <header class="navbar navbar-inverse navbar-fixed-top transparent-milk" role="banner">
         <div class="container">
@@ -33,10 +34,13 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#about">ABOUT US</a></li>
-                    <li><a href="#menu">MENU</a></li>
-                    <li><a href="#location">LOCATION & HOURS</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a class="smoothScroll" href="#about">ABOUT US</a></li>
+                    <li><a class="smoothScroll" href="#menu">MENU</a></li>
+                    <li><a class="smoothScroll" href="#location">LOCATION & HOURS</a></li>
+                    <li><a class="smoothScroll" href="#">CONTACT</a></li>
+
+                    
+
                     
                 </ul>
             </div>
@@ -50,6 +54,7 @@
                 <li data-target="#main-slider" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
+
                 <div class="item active" style="background-image: url(images/slider/uyu-header1.jpg)">
                     <div class="container">
                         <div class="row">
@@ -62,6 +67,7 @@
                         </div>
                     </div>
                 </div><!--/.item-->
+            
                 <div class="item" style="background-image: url(images/slider/uyu-header2.jpg)">
                     <div class="container">
                         <div class="row">
@@ -75,6 +81,7 @@
                         </div>
                     </div>
                 </div><!--/.item-->
+
                 <div class="item" style="background-image: url(images/slider/uyu-header3.jpg)">
                     <div class="container">
                         <div class="row">
@@ -94,6 +101,7 @@
                         </div>
                     </div>
                 </div><!--/.item-->
+
             </div><!--/.carousel-inner-->
         </div><!--/.carousel-->
         <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
@@ -131,50 +139,72 @@
                     </div>
                     <p class="gap"></p>
                 </div>
+
                 <div class="col-md-9">
                     <div id="scroller" class="carousel slide">
                         <div class="carousel-inner">
                             <div class="item active">
                                 <div class="row">
+                                
                                     <div class="col-xs-4">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/thumb/uyu-item1.jpg" alt="">
-                                                <h5>
-                                                    Honeycomb
-                                                </h5>
-                                                <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Honeycomb - best seller" href="images/portfolio/thumb/uyu-item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>                            
-                                    <div class="col-xs-4">
-                                        <div class="portfolio-item">
-                                            <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/thumb/uyu-item2.jpg" alt="">
-                                                <h5>
-                                                    Crunchy Caramel
-                                                </h5>
-                                                <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Crunchy Caramel - crunchy and sweet" href="images/portfolio/thumb/uyu-item2.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>                            
-                                    <div class="col-xs-4">
-                                        <div class="portfolio-item">
-                                            <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/thumb/uyu-item3.jpg" alt="">
-                                                <h5>
-                                                    Wonderland
-                                                </h5>
-                                                <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Wonderland - dive yourself into the sweets" href="images/portfolio/thumb/uyu-item3.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                </div>
+                                                <!-- desc of menu-->
+                                                <a title="Honeycomb - best seller" href="images/portfolio/thumb/uyu-item1.jpg" rel="prettyPhoto"><!--<i class="icon-eye-open"></i>-->
+                                                    <img class="img-responsive" src="images/portfolio/thumb/uyu-item1.jpg" alt="">
+
+                                                    <h5>
+                                                        Honeycomb
+                                                    </h5>
+
+                                                    <div class="overlay">
+                                                
+                                                    </div>
+                                                    
+
+                                                </a>
+
+
                                             </div>
                                         </div>
                                     </div>
+
+                                    <div class="col-xs-4">
+                                        <div class="portfolio-item">
+                                            <div class="item-inner">
+
+                                                <a title="Crunchy Caramel" href="images/portfolio/thumb/uyu-item2.jpg" rel="prettyPhoto">
+                                                    
+                                                    <img class="img-responsive" src="images/portfolio/thumb/uyu-item2.jpg" alt="">
+                                                    <h5>
+                                                        Crunchy Caramel
+                                                    </h5>
+                                                    <div class="overlay">
+                                                        
+                                                    
+                                                    </div>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div> 
+
+                                    <div class="col-xs-4">
+                                        <div class="portfolio-item">
+                                            <div class="item-inner">
+                                                <a title="Wonderland - dive yourself into the sweets" href="images/portfolio/thumb/uyu-item3.jpg" rel="prettyPhoto">
+                                                    <img class="img-responsive" src="images/portfolio/thumb/uyu-item3.jpg" alt="">
+                                                    <h5>
+                                                        Wonderland
+                                                    </h5>
+                                                    <div class="overlay">
+                                                    
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div><!--/.row-->
                             </div><!--/.item-->
                             <div class="item">
@@ -182,39 +212,43 @@
                                     <div class="col-xs-4">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/thumb/uyu-item4.jpg" alt="">
-                                                <h5>
-                                                    Fruit Sensation
-                                                </h5>
-                                                <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Crunchy Caramel - crunchy and sweet" href="images/portfolio/thumb/uyu-item4.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                </div>
+                                                <a title="Crunchy Caramel - crunchy and sweet" href="images/portfolio/thumb/uyu-item4.jpg" rel="prettyPhoto">
+                                                    <img class="img-responsive" src="images/portfolio/thumb/uyu-item4.jpg" alt="">
+                                                    <h5>
+                                                        Fruit Sensation
+                                                    </h5>
+                                                    <div class="overlay">
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-xs-4">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/thumb/uyu-item3.jpg" alt="">
-                                                <h5>
-                                                    Wonderland
-                                                </h5>
-                                                <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Wonderland - dive yourself into the sweets" href="images/portfolio/thumb/uyu-item3.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                </div>
+                                                <a title="Wonderland - dive yourself into the sweets" href="images/portfolio/thumb/uyu-item3.jpg" rel="prettyPhoto">
+                                                    <img class="img-responsive" src="images/portfolio/thumb/uyu-item3.jpg" alt="">
+                                                    <h5>
+                                                        Wonderland
+                                                    </h5>
+                                                    <div class="overlay">
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>                            
                                     <div class="col-xs-4">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/thumb/uyu-item1.jpg" alt="">
-                                                <h5>
-                                                    Honeycomb
-                                                </h5>
-                                                <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Honeycomb - best seller" href="images/portfolio/thumb/uyu-item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                </div>
+                                                <a title="Honeycomb - best seller" href="images/portfolio/thumb/uyu-item1.jpg" rel="prettyPhoto">
+                                                    <img class="img-responsive" src="images/portfolio/thumb/uyu-item1.jpg" alt="">
+                                                    <h5>
+                                                        Honeycomb
+                                                    </h5>
+
+                                                    <div class="overlay">
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -251,21 +285,35 @@
                 </div>
                 <div class="col-sm-6">
                     <ul class="pull-right">
+                        <a href="">
+                            <li class="icon-twitter icon-sm"></li>    
+                        </a>
+                        <a href="">
+                            <li class="icon-facebook icon-sm"></li>    
+                        </a>
+                        <a href="">
+                            <li class="icon-google-plus icon-sm"></li>    
+                        </a>
+                        <a href="">
+                            <li class="icon-instagram icon-sm"></li>    
+                        </a>
                         
-                        <li class="icon-twitter icon-sm"></li>
-                        <li class="icon-facebook icon-sm"></li>
-                        <li class="icon-google-plus icon-sm"></li>
-                        <li class="icon-instagram icon-sm"></li>
                         <li><a id="gototop" class="gototop" href="#"><i class="icon-chevron-up"></i></a></li><!--#gototop-->
                     </ul>
                 </div>
             </div>
         </div>
     </footer><!--/#footer-->
+ 
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
     <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/smoothscroll.js"></script>
+
+    <script>
+    </script>
+
 </body>
 </html>
